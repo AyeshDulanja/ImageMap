@@ -15,7 +15,8 @@ function openPopup(content) {
     'IN': 'in.aspx',
     'VT': 'vt.aspx',
     'HK': 'hk.aspx',
-    'CH': 'ch.aspx'
+    'CH': 'ch.aspx',
+    'ETH':'eth.aspx'
 };
 
 

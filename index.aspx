@@ -34,6 +34,7 @@
   </map> -->
 <div class="mapcontainer">
   <map name="image-map" id="image-map" class="image-map">
+    <area target="" alt="ETH" title="ETH" onclick="openPopup('ETH')" coords="422,500,613,567" shape="rect">
     <area target="" alt="UK" title="UK" onclick="openPopup('UK')" coords="408,167,557,226" shape="rect">
     <area target="" alt="USA" title="USA" onclick="openPopup('USA')" coords="351,284,501,339" shape="rect">
     <area target="" alt="NG" title="NG" onclick="openPopup('NG')" coords="122,340,249,390" shape="rect">
