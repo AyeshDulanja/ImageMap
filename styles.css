@@ -14,9 +14,17 @@
 }
 
 .imagecontainer {
-  position: relative;
-  width: 100%;
+  /* position: relative;
+  width: 100%; */
+  max-width: 100%; /* Ensure the container does not exceed the viewport width */
+    overflow: hidden;
 
+}
+
+.imagecontainer img{
+  width: 100%; /* Make the image fill the width of its container */
+    height: auto; /* Maintain aspect ratio */
+    display: block;
 }
 
 .hotspot-image{

@@ -4,17 +4,20 @@ function openPopup(content) {
   var popupContent = document.getElementById("popup-content");
 
   var contentMap = {
-    // 'ETH': 'eth.aspx',
-    // 'USA': 'usa.aspx',
-    // 'UK': 'uk.aspx',
-    // 'IND': 'ind.aspx',
+    'UK': 'uk.aspx',
+    'USA': 'usa.aspx',
+    'NG': 'ng.aspx',
+    'EGT': 'egt.aspx',
+    'ET': 'et.aspx',
+    'IND': 'ind.aspx',
     'SL': 'sl.aspx',
-    'BAN': 'ban.aspx',
-    // 'IDN': 'idn.aspx',
-    'VN': 'vn.aspx',
-    // 'HK': 'hk.aspx',
-    // 'CHN': 'chn.aspx'
-  };
+    'BN': 'bn.aspx',
+    'IN': 'in.aspx',
+    'VT': 'vt.aspx',
+    'HK': 'hk.aspx',
+    'CH': 'ch.aspx'
+};
+
 
   var src = contentMap[content] || 'default.aspx';
   popupContent.innerHTML = '<iframe src="' + src + '"></iframe>';
