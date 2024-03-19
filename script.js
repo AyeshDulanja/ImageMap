@@ -4,18 +4,18 @@ function openPopup(content) {
   var popupContent = document.getElementById("popup-content");
 
   var contentMap = {
-    'UK': 'uk.aspx',
-    'USA': 'usa.aspx',
-    'NG': 'ng.aspx',
-    'EGT': 'egt.aspx',
-    'ETH': 'eth.aspx',
-    'IND': 'ind.aspx',
+    //'UK': 'uk.aspx',
+    //'USA': 'usa.aspx',
+    //'NG': 'ng.aspx',
+   // 'EGT': 'egt.aspx',
+   // 'ETH': 'eth.aspx',
+    //'IND': 'ind.aspx',
     'SL': 'sl.aspx',
     'BN': 'bn.aspx',
-    'IN': 'in.aspx',
+    //'IN': 'in.aspx',
     'VT': 'vt.aspx',
-    'HK': 'hk.aspx',
-    'CH': 'ch.aspx'
+    //'HK': 'hk.aspx',
+    //'CH': 'ch.aspx'
 };
 
   var src = contentMap[content] || 'default.aspx';

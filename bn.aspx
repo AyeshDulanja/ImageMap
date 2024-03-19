@@ -471,8 +471,15 @@
 </body>
 <style>
 
+@font-face { font-family: GT America Regular; src: url('fonts/GT-America-Standard-Regular.otf'); }
+@font-face { font-family: GT America Medium; src: url('fonts/GT-America-Standard-Medium.otf'); }
+@font-face { font-family: GT America Bold; src: url('fonts/GT-America-Compressed-Bold.otf'); }
+
   * {
-    font-family: 'Trebuchet MS', sans-serif;
+    font-family: 'GT America Regular', sans-serif;
+  }
+  h1{
+    font-family: 'GT America Bold', sans-serif;
   }
 
   table,td,tr{
