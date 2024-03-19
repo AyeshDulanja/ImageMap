@@ -8,17 +8,15 @@ function openPopup(content) {
     'USA': 'usa.aspx',
     'NG': 'ng.aspx',
     'EGT': 'egt.aspx',
-    'ET': 'et.aspx',
+    'ETH': 'eth.aspx',
     'IND': 'ind.aspx',
     'SL': 'sl.aspx',
     'BN': 'bn.aspx',
     'IN': 'in.aspx',
     'VT': 'vt.aspx',
     'HK': 'hk.aspx',
-    'CH': 'ch.aspx',
-    'ETH':'eth.aspx'
+    'CH': 'ch.aspx'
 };
-
 
   var src = contentMap[content] || 'default.aspx';
   popupContent.innerHTML = '<iframe src="' + src + '"></iframe>';
